@@ -1,0 +1,136 @@
+body {
+    background-color: #FFFFFF;
+}
+header {
+    margin:40px 40px;
+    display: inline-block;
+    width: 60%;
+    position: absolute;
+}
+
+.seccion-1 {
+    width:65%;
+    display: inline-block;
+    margin: 100px 20px;
+    position: relative;
+    }
+
+.ocultar {
+    display: none;
+
+}
+.boton {
+    width: 25%;
+    padding: 15px;
+    font-size: 1em;  
+    border-color:  rgb(5, 5, 77);
+    border-radius: 20px;
+    position: relative;
+    margin: 15px;
+    left: 7.5%;
+    
+
+}
+
+#encriptar{
+    background-color: #0A3871;
+    color: white;
+    
+}
+
+#desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+   
+}
+.texto-encriptar {
+    width:90%;
+    padding: 250px 0px;
+    text-align: center;
+    margin: 2% 5%;
+    background-color: #FFFFFF;
+    border-style: none;
+    font-size: 2em;
+    
+    
+}
+.input-animacion :hover{
+    font-size: 2.03em;
+    
+}
+
+.botones :hover{
+    box-shadow: 5px 5px 10px #ADB5BD;
+}
+.texto-botones {
+    width: 50%;
+    font-size: 1em;  
+    position: relative;
+    margin: 0 25px;
+    left: 8%;
+    display: block;
+
+}
+.texto-botones:before{
+    content: '\26A0 ';
+}
+
+.seccion-2 {
+    display: inline-block;
+    width: 27%;
+    height: 550px;
+    padding: 7% 0 ;
+    margin: 3% 2%;
+    position: absolute;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #ADB5BD;
+    
+
+}
+
+.texto-right {
+    padding: 15%;
+    line-height: 1.5em;
+}
+.texto-right p:first-child{
+    font-weight:bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+   
+}
+
+.textoSalida{
+    display: flex;
+    width:90%;
+    height: 550px;
+    position: relative;
+    margin: 0 5% ;
+    word-break: break-all;
+    border-style: none;   
+}
+
+.textoSalida button:hover  {
+    box-shadow: 5px 5px 10px #ADB5BD;
+}
+.copiar{
+    width: 70%;
+    padding: 15px;
+    
+    right: 15%;
+    top: 100%;
+    font-size: 1em;  
+    border-color:  rgb(5, 5, 77);
+    border-radius: 20px;
+    position:absolute;
+    
+    
+    
+}
+
+
+.texto-salida{
+    font-size: 1.5em;
+}
+/*usr float para crear seccion 2*/
