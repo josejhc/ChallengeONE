@@ -33,6 +33,8 @@ function Reiniciar() {
         img_muñeco.classList.remove('ocultar');
         parrafoSalida.classList.add('ocultar');
         resultado.textContent= '';
+        var elemento = document.getElementById('copiado');
+        elemento.style.display = "none";
 }
 
 function ocultar(){
