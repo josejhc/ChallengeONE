@@ -1,2 +1,3 @@
   # portafolio
-  No es posible agregar una página en github ya que me pide actualizar mi plan a premium
+ 
+<a href="https://josejhc.github.io/ChallengeONE/">Visualiza mi repositorio</a>
